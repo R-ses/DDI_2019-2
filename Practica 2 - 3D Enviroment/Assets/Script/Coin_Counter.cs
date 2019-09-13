@@ -21,5 +21,7 @@ public class Coin_Counter : MonoBehaviour {
 	{
 		coin_count += c_value;
 		coin_text.text = "Coin: " + coin_count.ToString();
+		
+		
 	}
 }

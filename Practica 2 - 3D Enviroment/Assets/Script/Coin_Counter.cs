@@ -7,6 +7,7 @@ public class Coin_Counter : MonoBehaviour {
 
 	public Text coin_text;
 	public int coin_count;
+	public AudioSource coin_sound;
 	// Use this for initialization
 	void Start () {
 		coin_count = 0;
@@ -21,7 +22,7 @@ public class Coin_Counter : MonoBehaviour {
 	{
 		coin_count += c_value;
 		coin_text.text = "Coin: " + coin_count.ToString();
-		
+		coin_sound.Play(0);
 		
 	}
 }

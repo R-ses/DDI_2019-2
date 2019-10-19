@@ -56,7 +56,7 @@ public class mision : MonoBehaviour {
 		}
 		
 		if(cap_flag == false){
-		Capsule_text.text = "Esto es un objeto, puedes interactual con el acercandote y precionando la tecla 'E' ";
+		Capsule_text.text = "Esto es un objeto, puedes interactuar con el acercandote y precionando la tecla 'E' ";
 		}
 		else
 		{
